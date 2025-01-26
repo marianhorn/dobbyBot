@@ -8,7 +8,7 @@ import nest_asyncio
 nest_asyncio.apply()
 
 # Load TinyLlama tokenizer and model
-MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v0.1"
+MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModelForCausalLM.from_pretrained(MODEL_NAME)
 
